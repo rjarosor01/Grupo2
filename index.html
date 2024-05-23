@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>WMTS Tile Transitions</title>
+    <link rel="stylesheet" href="node_modules/ol/ol.css">
+    <style>
+      .map {
+        width: 100%;
+        height: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map" class="map"></div>
+    <label>
+      Sea-level
+      <input id="slider" type="range" value="10" max="100" min="-1">
+    </label>
+    <span id="theinfo"></span>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
